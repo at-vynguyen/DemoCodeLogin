@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.main-login {
+  width: 100%;
+  float: left;
+  padding: 100px 0 0;
+  height: calc(100vh - 50px);
+  background-color: #e5e3e3;
+}
+.main-login .login-form {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  padding: 15px 20px 50px;
+}
+.main-login .login-form .login-title {
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-login .login-form .login-wrapper {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px #e5e0e0;
+  background-color: #ffffff;
+}
+.main-login .login-form .login-wrapper .login-note {
+  padding: 20px 40px;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.main-login .login-form .login-wrapper .login-wrapper-block {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.main-login .login-form .login-wrapper .login-wrapper-block .login-label {
+  padding: 10px 0;
+  display: block;
+}
+.main-login .login-form .login-wrapper .login-wrapper-block input {
+  width: 100%;
+  padding: 0.5em 0.7em;
+  margin: 0 0 1em;
+  font-size: 1.2em;
+  border: 1px solid #e5e3e3;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.main-login .login-form .login-wrapper .register {
+  text-align: center;
+}
+.main-login .login-form .login-wrapper .register span {
+  display: block;
+  margin-top: 10px;
+}
+.main-login .login-form .login-wrapper .register a {
+  color: #ff5151;
+}
+.main-login .login-form .btn-login {
+  cursor: pointer;
+  display: block;
+  width: 50%;
+  height: 50px;
+  border: 0;
+  outline: none;
+  margin: 30px auto;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #ff5151;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-login .login-form {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-login .login-form {
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .main-login .login-form {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
